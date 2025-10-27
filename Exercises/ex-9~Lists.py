@@ -15,7 +15,7 @@ print(lst1)
 print(f"length of 2nd list: {len(lst1)}",f"\nlength of 1st list: {len(lst)}")
 
 # Get the first item, the middle item and the last item of the list
-print(f"First item: {lst1[0]}",f"\nMiddle item: {lst1[int((0+(len(lst1)-1))/2)]}",f"\nLast item: {lst1[len(lst1)-1]}")
+print(f"First item: {lst1[0]}",f"\nMiddle item: {lst1[int(((len(lst1)-1))/2)]}",f"\nLast item: {lst1[len(lst1)-1]}")
 
 # Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
 mixed_data_types = ["Michael", 25, 6, "single", "12/AveSt/CAL"]
