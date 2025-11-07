@@ -38,7 +38,7 @@ result = higher_order_function('absolute')
 print(result(-3))      # 3
 
 
-# MAP / REDUCE / FILTER are built in map functions.
+# MAP / REDUCE / FILTER are built in higher order functions.
 names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
 names_upper_cased = map(lambda name: name.upper(), names)
 print(list(names_upper_cased))
