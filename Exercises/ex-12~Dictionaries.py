@@ -96,3 +96,8 @@ for food in cart:
     print(food, end=" ")
 print("\n***** RECEIPT ******")
 print(f"Your total is: ${total:.2f}")
+
+# Another way of making dictionaries
+line_style = dict(marker="*", markersize=10, markerfacecolor="blue", markeredgecolor="blue",
+               linestyle='dashed', linewidth=2, color="red")
+print(line_style)
