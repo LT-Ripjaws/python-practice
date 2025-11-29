@@ -89,3 +89,20 @@ for row in column_data:
     df.loc[length] = individual_row
 
 print(df)
+
+
+#  To fetch url and save to file
+
+# def fetchAndSaveToFile(url, path):
+#     response = requests.get(url)
+#     with open(path, "w") as file:
+#         file.write(response.text)
+
+# fetchAndSaveToFile('https://www.example.com', './data/example.html')
+
+# with oppen('./data/example.html', 'r') as file:
+#     content = file.read()
+# soup = BeautifulSoup(content, 'html.parser')
+# print(soup.prettify())
+
+# wE can use proxies and rate limiting to avoid getting blocked while web scraping.
